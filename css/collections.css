@@ -4,7 +4,7 @@
     align-items: center;
 }
 .collections{
-    padding-top: 61px ;
+    padding: 61px  0 63px;
 }
 .collect__card {
     background: url(../img/film1.png) no-repeat center/cover;
