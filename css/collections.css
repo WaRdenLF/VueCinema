@@ -3,7 +3,9 @@
     justify-content: space-between;
     align-items: center;
 }
-
+.collections{
+    padding-top: 61px ;
+}
 .collect__card {
     background: url(../img/film1.png) no-repeat center/cover;
     max-width: 350px;
@@ -64,4 +66,12 @@
 
 .collect__card:hover .collect__icon{
     transform: rotateX(360deg) ;
+}
+
+.collect__card:nth-child(2){
+    background: url(../img/film2.png) no-repeat center/cover;
+}
+
+.collect__card:nth-child(3){
+    background: url(../img/film3.png) no-repeat center/cover;
 }
