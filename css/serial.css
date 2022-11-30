@@ -6,7 +6,6 @@
 }
 
 .bigfilm{
-    padding: 96px 22px ;
     background: url(../img/bigfilm.png) no-repeat center/cover;
     max-width: 1113px;
     width: 100%;
@@ -28,4 +27,51 @@
     height: 100%;
     z-index: -1;
 
+}
+
+.off{
+    padding: 96px 22px ; 
+}
+
+.game{
+    font-family: var(--cb);
+font-size: 40px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: center;
+margin-bottom: 27px;
+
+}
+
+.time{
+    font-family: var(--cr);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+margin-bottom: 30px;
+}
+
+.btn__last{
+    width: 166px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg);
+    border-radius: 4px;
+    font-family: var(--rm);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+    color: white;
+    transition: 0.3s;
+    margin: 0 auto;
+}
+
+.btn__last:hover{
+    background: var(--orange);
+    color: black;
 }
