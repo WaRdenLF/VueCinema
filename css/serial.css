@@ -82,7 +82,6 @@ margin-bottom: 30px;
 
 .film__wrap{
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 30px;
 }
@@ -113,10 +112,10 @@ margin-bottom: 30px;
 }
 
 .miniserial__h3 {
-    font-family: var(--cb) , sans-serif;
-font-size: 24px;
-font-weight: 700;
-line-height: 27px;
+    font-family: var(--cb);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27px;
 }
 
 .flesh{
@@ -128,8 +127,8 @@ line-height: 27px;
     justify-content: center;
     z-index: 10;
     border-radius: 6px;
-    width: 100%;
-    max-width: 255px;
+    width: 255px;
+    height: 183px;
 }
 
 .fleshs{
@@ -141,4 +140,23 @@ line-height: 27px;
     background: linear-gradient(95.68deg, rgba(35, 35, 35, 0.8) 0%, rgba(11, 11, 11, 0.6) 100%);;
     z-index: -1;
     border-radius: 6px;
+}
+
+.serials__wrap{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.flesh:nth-child(2){
+    background: url(../img/serial3.png) no-repeat  top center/cover;
+}
+
+.flesh:nth-child(3){
+    background: url(../img/serial4.png) no-repeat  top center/cover;
+}
+
+.flesh:nth-child(4){
+    background: url(../img/serial5.png) no-repeat  top center/cover;
 }
