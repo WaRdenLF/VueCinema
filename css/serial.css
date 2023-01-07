@@ -82,7 +82,7 @@ margin-bottom: 30px;
 
 .film__wrap{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     gap: 30px;
 }
@@ -119,6 +119,5 @@ font-weight: 700;
 line-height: 27px;
 letter-spacing: 0em;
 text-align: left;
-margin-top: 8px;
 
 }
