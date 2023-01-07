@@ -160,3 +160,7 @@ margin-bottom: 30px;
 .flesh:nth-child(4){
     background: url(../img/serial5.png) no-repeat  top center/cover;
 }
+
+.old__serial{
+    padding-bottom: 63px;
+}
