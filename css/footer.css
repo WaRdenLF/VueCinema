@@ -1,0 +1,24 @@
+footer {
+  background: linear-gradient(90deg, #ff8c30 0%, #9f4700 100%);
+  padding: 24px 0;
+}
+
+.footer__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.footer__text {
+  font-family: "CB";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+}
